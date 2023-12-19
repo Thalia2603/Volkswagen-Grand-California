@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadido el pixelArt al principio">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos los colores del &quot;menu&quot;">
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -131,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702978207389</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Añadidos los colores del &quot;menu&quot;">
+      <option name="closed" value="true" />
+      <created>1702978651110</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1702978651110</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +159,7 @@
     <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys" />
     <MESSAGE value="Añadidos los archivos consoleColors.kt y utilities.kt" />
     <MESSAGE value="Añadido el pixelArt al principio" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadido el pixelArt al principio" />
+    <MESSAGE value="Añadidos los colores del &quot;menu&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos los colores del &quot;menu&quot;" />
   </component>
 </project>
