@@ -4,6 +4,11 @@ fun main(){
     //missatge d'error que printar dins dels metodes
     val messageError="Valor incorrecte, torni a intentar"
 
+    println("  __        ___\n" +
+            " / o\\      /o o\\\n" +
+            "|   <      |   |\n" +
+            " \\__/      |,,,|")
+
     //pregunta a l'usuari si te la Volkswagen Grand California normal o la Camper Full Equip
     println("Sel·leccioni una opció:\n1-Volkswagen Grand California\n2-Volkswagen Grand California Camper Full Equip")
     val cotxeUsuari=llegirInt(1, 2,messageError)
@@ -29,9 +34,5 @@ fun main(){
     val preuBici=calculPortabicis(portabicisUsuari,preuFinal)
     val preuAnys=calculPerduaAnys(anysFurgo,preuFinal,kilometresCotxe)
 
-
     print("El preu final es: "+preuFinal+"€")
-    print("El preu final amb portabicis es: "+preuBici+"€")
-    print("El preu final segons els anys es: "+preuAnys+"€")
-
 }

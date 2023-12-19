@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/consoleColors.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utilities.kt" afterDir="false" />
+    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos los archivos consoleColors.kt y utilities.kt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
     </list>
@@ -44,6 +42,8 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Gradle.Build exercici5VWAcabat.executor": "Run",
+    "Kotlin.MainKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -99,7 +99,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702975573734</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Añadidos los archivos consoleColors.kt y utilities.kt">
+      <option name="closed" value="true" />
+      <created>1702975966837</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702975966837</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -118,6 +126,7 @@
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari" />
     <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys" />
+    <MESSAGE value="Añadidos los archivos consoleColors.kt y utilities.kt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos los archivos consoleColors.kt y utilities.kt" />
   </component>
 </project>
