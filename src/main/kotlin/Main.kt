@@ -30,7 +30,8 @@ fun main(){
     val preuAnys=calculPerduaAnys(anysFurgo,preuFinal,kilometresCotxe)
 
 
-
     print("El preu final es: "+preuFinal+"€")
+    print("El preu final amb portabicis es: "+preuBici+"€")
+    print("El preu final segons els anys es: "+preuAnys+"€")
 
 }

@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari">
+    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/consoleColors.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/utilities.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsVW.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsVW.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,13 +91,33 @@
       <option name="project" value="LOCAL" />
       <updated>1702974741685</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys">
+      <option name="closed" value="true" />
+      <created>1702975573734</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702975573734</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit" />
     <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari" />
+    <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos:&#10;&#10;funcionsVW.kt: calulPerduaAnys" />
   </component>
 </project>
