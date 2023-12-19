@@ -4,7 +4,7 @@ fun main(){
     //missatge d'error que printar dins dels metodes
     val messageError="Valor incorrecte, torni a intentar"
 
-    println("  __        ___\n" +
+    print("  __        ___\n" +
             " / o\\      /o o\\\n" +
             "|   <      |   |\n" +
             " \\__/      |,,,|")
