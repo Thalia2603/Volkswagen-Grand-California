@@ -29,14 +29,14 @@ fun calculPerdua (kilometros: Double, pPneumatics:Long): Double {
     return perdua
 }
 
-fun calculPortabicis(ePneumatics:Int,preuFinal:Int):Int{
+fun calculPortabicis(ePneumatics:Int,preuFinal:Double): Double {
     if (ePneumatics==1){
         val preuAmbPortabicis=calculPreuAmbPortabicis(preuFinal)
         return preuAmbPortabicis
     }else return preuFinal
 }
 
-fun calculPreuAmbPortabicis(preuFinal: Int):Int{
+fun calculPreuAmbPortabicis(preuFinal: Double):Double{
     val preuFinalPortabicis=preuFinal+250
     return preuFinalPortabicis
 }
