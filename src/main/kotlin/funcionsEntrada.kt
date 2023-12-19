@@ -2,14 +2,6 @@ package org.example
 
 import java.util.*
 
-//conte les funcions:
-/*
--llegirInt
--llegirLong
--llegirDouble
-
-
-*/
 val scanner=Scanner(System.`in`)
 fun llegirInt(pMin:Int,pMax:Int, pMessError:String):Int{
     val scanner= Scanner(System.`in`)
