@@ -40,3 +40,20 @@ fun calculPreuAmbPortabicis(preuFinal: Double):Double{
     val preuFinalPortabicis=preuFinal+250
     return preuFinalPortabicis
 }
+
+fun calculPerduaAnys(antiguitat:Int,preuFurgo:Double,kmCotxe:Double):Double{
+    var preuPerdua:Double = 0.0
+    var preuFurgoPerdua:Double=0.0
+   if (antiguitat in 0..5){
+       return preuFurgo
+   }else if (antiguitat in 6..10){
+       preuPerdua=kmCotxe*0.0002
+       preuFurgoPerdua -= preuPerdua
+       return preuFurgoPerdua
+   }else if (antiguitat >10){
+        preuPerdua=kmCotxe*0.0004
+       preuFurgoPerdua-=preuPerdua
+       return preuFurgoPerdua
+   }
+    return preuFurgo
+}

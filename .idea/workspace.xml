@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Primer commit">
+    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsEntrada.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/funcionsVW.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/funcionsVW.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,12 +74,29 @@
       <option name="project" value="LOCAL" />
       <updated>1702973728216</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari">
+      <option name="closed" value="true" />
+      <created>1702974689236</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1702974689236</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari">
+      <option name="closed" value="true" />
+      <created>1702974741685</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702974741685</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Primer commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Primer commit" />
+    <MESSAGE value="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos:&#10;&#10;funcionsVW.kt: calculPortabicis, calculPreuAmbPortabicis&#10;&#10;Main.kt:&#10;portabicisUsuari" />
   </component>
 </project>

@@ -19,12 +19,18 @@ fun main(){
     println("Sel·leccioni una opció:\n1-Disposa de portabicis\n2-No disposa de portabicis")
     val portabicisUsuari= llegirInt(1,2,messageError)
 
+    //pregunta a l'usuari els anys de la furgo
+    println("Introdueixi els anys d'antiguitat de la furgoneta")
+    val anysFurgo= llegirInt(1,50,messageError)
+
     //calcula el preu inicial segons model
     val preuBase=calcularPreuBase(cotxeUsuari)
     val preuFinal=calcularPreuFinal(kilometresCotxe,estatPneumatics,preuBase)
     val preuBici=calculPortabicis(portabicisUsuari,preuFinal)
+    val preuAnys=calculPerduaAnys(anysFurgo,preuFinal,kilometresCotxe)
 
 
 
     print("El preu final es: "+preuFinal+"€")
+
 }
