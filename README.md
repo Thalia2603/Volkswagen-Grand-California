@@ -26,17 +26,16 @@ Los usuarios pueden optar por incluir un portabicicletas, lo que modifica consid
 ## Imágenes
 
 ### 1. Ilustración del Proyecto
-![Ilustración](![imagenIlustrativa](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/ee27f8be-aaa2-4bf4-81cb-d5703f9ecd3d)
-)
+![Imagen ilustrativa del proyecto](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/a3f333ae-d9e0-4578-baa6-12ef7a6e3c35)
 
-### 2. Ejecución del Programa - Pantalla de Inicio
-![Pantalla de Inicio](link_a_la_imagen_ejecucion_1)
+### 2. Código - Función de Cálculo de Precio Final
+![Cálculo de Precio Final](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/8d1f00cd-752a-40fe-b900-d39785bf5bfe)
 
-### 3. Ejecución del Programa - Selección de Modelo
-![Selección de Modelo](link_a_la_imagen_ejecucion_2)
+### 3. Código - Función de Lectura de Datos
+![Lectura de Datos](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/8c22dfce-7d3d-4dc4-b96b-c1dd3e292a9a)
 
-### 4. Código - Función de Cálculo de Precio Final
-![Cálculo de Precio Final](link_a_la_imagen_codigo_1)
+### 4. Ejecución del Programa - Pantalla de Inicio
+![Pantalla de Inicio](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/cdcdb0be-65b0-4847-8155-7745ea780c5a)
 
-### 5. Código - Función de Lectura de Datos
-![Lectura de Datos](link_a_la_imagen_codigo_2)
+### 5. Ejecución del Programa Entero
+![Selección de Modelo](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/1f2368a4-87ca-4faf-897e-8c9a7bc86f3b)
