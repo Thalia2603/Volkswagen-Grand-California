@@ -7,18 +7,16 @@ fun main(){
     // Mensaje de error a imprimir dentro de los métodos
     val messageError="Valor incorrecto, intente de nuevo"
     // Impresión de un arte ASCII al inicio del programa
-    println(
-        RED_BOLD+"  .--.            .--.\n" +
-                " ( (`\\\\.\"--``--\".//`) )\n" +
-                "  '-.   __   __    .-'\n" +
-                "   /   /__\\ /__\\   \\\n" +
-                "  |    \\ 0/ \\ 0/    |\n" +
-                "  \\     `/   \\`     /\n" +
-                "   `-.  /-\"\"\"-\\  .-`\n" +
-                "     /  '.___.'  \\\n" +
-                "     \\     I     /\n" +
-                "      `;--'`'--;`\n" +
-                "        '.___.'"+RESET)
+        println(
+        RED_BOLD+"   ---------------------------.\n" +
+                " `/\"\"\"\"/\"\"\"\"/|\"\"|'|\"\"||\"\"|   ' \\.\n" +
+                " /    /    / |__| |__||__|      |\n" +
+                "/----------=====================|\n" +
+                "| \\  /V\\  /    _.               |\n" +
+                "|()\\ \\W/ /()   _            _   |\n" +
+                "|   \\   /     / \\          / \\  |-( )\n" +
+                "=C========C==_| ) |--------| ) _/==] _-{_}_)\n" +
+                " \\_\\_/__..  \\_\\_/_ \\_\\_/ \\_\\_/__.__."+RESET)
 
     // Pregunta al usuario si tiene la Volkswagen Grand California normal o la Camper Full Equip
     println(CYAN_BOLD+"Seleccione una opción para calcular el precio de su Volkswagen:\n1-Volkswagen Grand California\n2-Volkswagen Grand California Camper Full Equip"+ RESET)
