@@ -5,17 +5,15 @@ fun main(){
     val messageError="Valor incorrecte, torni a intentar"
 
     println(
-        RED_BOLD+"  .--.            .--.\n" +
-                " ( (`\\\\.\"--``--\".//`) )\n" +
-                "  '-.   __   __    .-'\n" +
-                "   /   /__\\ /__\\   \\\n" +
-                "  |    \\ 0/ \\ 0/    |\n" +
-                "  \\     `/   \\`     /\n" +
-                "   `-.  /-\"\"\"-\\  .-`\n" +
-                "     /  '.___.'  \\\n" +
-                "     \\     I     /\n" +
-                "      `;--'`'--;`\n" +
-                "        '.___.'"+RESET)
+        RED_BOLD+"   ---------------------------.\n" +
+                " `/\"\"\"\"/\"\"\"\"/|\"\"|'|\"\"||\"\"|   ' \\.\n" +
+                " /    /    / |__| |__||__|      |\n" +
+                "/----------=====================|\n" +
+                "| \\  /V\\  /    _.               |\n" +
+                "|()\\ \\W/ /()   _            _   |\n" +
+                "|   \\   /     / \\          / \\  |-( )\n" +
+                "=C========C==_| ) |--------| ) _/==] _-{_}_)\n" +
+                " \\_\\_/__..  \\_\\_/_ \\_\\_/ \\_\\_/__.__."+RESET)
 
     //pregunta a l'usuari si te la Volkswagen Grand California normal o la Camper Full Equip
     println(CYAN_BOLD+"Sel·leccioni una opció:\n1-Volkswagen Grand California\n2-Volkswagen Grand California Camper Full Equip"+ RESET)
