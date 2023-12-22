@@ -26,7 +26,8 @@ Los usuarios pueden optar por incluir un portabicicletas, lo que modifica consid
 ## Imágenes
 
 ### 1. Ilustración del Proyecto
-![Ilustración](link_a_la_imagen_ilustrativa)
+![Ilustración](![imagenIlustrativa](https://github.com/Thalia2603/exercici5VWAcabat/assets/153110473/ee27f8be-aaa2-4bf4-81cb-d5703f9ecd3d)
+)
 
 ### 2. Ejecución del Programa - Pantalla de Inicio
 ![Pantalla de Inicio](link_a_la_imagen_ejecucion_1)
