@@ -1,8 +1,14 @@
 package org.example
+/**
+ * Programa principal que calcula el precio final de una furgoneta Volkswagen
+ * basado en diferentes opciones proporcionadas por el usuario.
+ * @author Thalia Bravo
+ * @version 1.0
+ */
 fun main(){
-    //missatge d'error que printar dins dels metodes
-    val messageError="Valor incorrecte, torni a intentar"
-
+    // Mensaje de error que se imprimirá dentro de los métodos que lo contengan
+    val messageError="Valor incorrecto, vuelva a intentarlo de nuevo"
+    // Impresión de un arte ASCII al inicio del programa
     println(
         RED_BOLD+"   ---------------------------.\n" +
                 " `/\"\"\"\"/\"\"\"\"/|\"\"|'|\"\"||\"\"|   ' \\.\n" +
@@ -14,30 +20,32 @@ fun main(){
                 "=C========C==_| ) |--------| ) _/==] _-{_}_)\n" +
                 " \\_\\_/__..  \\_\\_/_ \\_\\_/ \\_\\_/__.__."+RESET)
 
-    //pregunta a l'usuari si te la Volkswagen Grand California normal o la Camper Full Equip
-    println(CYAN_BOLD+"Sel·leccioni una opció:\n1-Volkswagen Grand California\n2-Volkswagen Grand California Camper Full Equip"+ RESET)
+    // Pregunta al usuario si tiene la Volkswagen Grand California normal o la Camper Full Equip
+    println(CYAN_BOLD+"Seleccione una opción:\n1-Volkswagen Grand California\n2-Volkswagen Grand California Camper Full Equip"+ RESET)
     val cotxeUsuari=llegirInt(1, 2,messageError)
 
-    println(YELLOW_BOLD+"Introdueixi els kilometres del vehicle (Ex: 0,00)"+RESET)
+    // Pregunta al usuario los kilómetros actuales de su furgoneta
+    println(YELLOW_BOLD+"Introduzca los kilómetros actuales del vehiculo, porfavor: (Ex: 0,00)"+RESET)
     val kilometresCotxe=llegirDouble(0, messageError)
 
-    //pregunta l'estat dels pneumatics
-    println(GREEN_BOLD+"Introdueixi quants kilometres tenen els pneumatics"+RESET)
+    // Pregunta al usuario el estado de los neumáticos
+    println(GREEN_BOLD+"Introduca los kilómetros que tienen los neumáticos:"+RESET)
     val estatPneumatics=llegirLong(0,messageError)
 
-    //pregunta a l'usuari si la furgo disposa o ni de portabicis
-    println(PURPLE_BOLD+"Sel·leccioni una opció:\n1-Disposa de portabicis\n2-No disposa de portabicis"+RESET)
+    // Pregunta al usuario si la furgoneta dispone o no porta bicicletas
+    println(PURPLE_BOLD+"Seleccione una opción según disponga o no de portabicicletas:\n1- Si, dispongo de portabicicletas\n2-No, no dispongo de portabicicletas"+RESET)
     val portabicisUsuari= llegirInt(1,2,messageError)
 
-    //pregunta a l'usuari els anys de la furgo
-    println(BLUE_BOLD+"Introdueixi els anys d'antiguitat de la furgoneta"+RESET)
+    // Pregunta al usuario los años de antigüedad de la furgoneta
+    println(BLUE_BOLD+"Introduzca los años de antigüedad de su furgoneta:"+RESET)
     val anysFurgo= llegirInt(1,50,messageError)
 
-    //calcula el preu inicial segons model
+    // Calcula el precio inicial según el modelo
     val preuBase=calcularPreuBase(cotxeUsuari)
     val preuFinal=calcularPreuFinal(kilometresCotxe,estatPneumatics,preuBase)
     val preuBici=calculPortabicis(portabicisUsuari,preuFinal)
     val preuAnys=calculPerduaAnys(anysFurgo,preuFinal,kilometresCotxe)
 
-    print(RED_BACKGROUND+"El preu final es: "+preuFinal+"€"+ RESET)
+    // Imprime el resultado
+    print(RED_BACKGROUND+"El precio final de la furgoneta sera de: "+preuFinal+"€"+ RESET)
 }
