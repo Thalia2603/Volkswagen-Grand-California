@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos los colores del &quot;menu&quot;">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+    <list default="true" id="3d56c5c3-92b9-4bee-ae5e-5a556dc33f58" name="Changes" comment="Añadidos cambiado el pixelArt por la furgoneta">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,9 +27,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
   <component name="ProjectId" id="2ZkklQiv4Qnzz32Dh11ys7EjNQ4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,7 +47,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/ITB/DAWe/PROG/UF2/exercici5VWAcabat",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler"
   }
 }]]></component>
   <component name="SharedIndexes">
@@ -138,7 +143,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702978651110</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Añadidos cambiado el pixelArt por la pantera rosa">
+      <option name="closed" value="true" />
+      <created>1702978803260</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1702978803260</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,7 +159,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="origin/main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -160,6 +185,8 @@
     <MESSAGE value="Añadidos los archivos consoleColors.kt y utilities.kt" />
     <MESSAGE value="Añadido el pixelArt al principio" />
     <MESSAGE value="Añadidos los colores del &quot;menu&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Añadidos los colores del &quot;menu&quot;" />
+    <MESSAGE value="Añadidos cambiado el pixelArt por la pantera rosa" />
+    <MESSAGE value="Añadidos cambiado el pixelArt por la furgoneta" />
+    <option name="LAST_COMMIT_MESSAGE" value="Añadidos cambiado el pixelArt por la furgoneta" />
   </component>
 </project>
