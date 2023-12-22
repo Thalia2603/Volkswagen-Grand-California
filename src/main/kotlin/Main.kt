@@ -1,5 +1,4 @@
 package org.example
-
 fun main(){
     //missatge d'error que printar dins dels metodes
     val messageError="Valor incorrecte, torni a intentar"
